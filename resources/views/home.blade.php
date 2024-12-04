@@ -3,7 +3,7 @@
 <div class="text-center">
     @foreach ($pessoas_linguas as $pessoa => $linguas )
         {{-- Component --}}
-        <x-card-pessoa :namePessoa="$pessoa" :linguasPessoa="$linguas"/>
+        <x-card-pessoa :$pessoa :$linguas />
     @endforeach
 </div>
 
