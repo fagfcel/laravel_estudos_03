@@ -13,8 +13,8 @@ class MainController extends Controller
         //as liguas que cada pessoa fala
         $data = [
             'Carlos' => ['Português', 'Iinglês'],
-            'Mario' => ['Português', 'Espanhol'],
-            'Carolina' => ['Português', 'Inglês', 'Francês']
+            'Mario' => ['Português'],
+            'João' => ['Português', 'Inglês', 'Francês']
         ];
         return view('home',['pessoas_linguas' => $data]);
     }
