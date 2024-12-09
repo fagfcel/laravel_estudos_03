@@ -8,4 +8,6 @@ Route::get('/', function()
     echo 'Blade Layout!';
 });
 
-Route::get('/show', [MainController::class, 'showPage']);
+Route::view('/home', 'home');
+Route::view('/about', 'about');
+Route::view('/contact', 'contact');
