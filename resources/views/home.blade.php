@@ -15,7 +15,7 @@
     </x-other-card >
 </div> --}}
 
-<x-multi-slot>
+{{-- <x-multi-slot>
     <x-slot:title>Este é o titulo!!</x-slot:title>
     <x-slot:content>Este é o contexto!!</x-slot:content>
     <x-slot:footer>
@@ -25,6 +25,15 @@
             <li>item 3</li>
         </ul>
     </x-slot:footer>
-</x-multi-slot>
-
+</x-multi-slot> --}}
+<h4>Esté é um componente anonimo</h4>
+<x-alert-card>
+    Primeira mensagem!
+</x-alert-card>
+<x-alert-card>
+    Segunda mensagem!
+</x-alert-card>
+<x-alert-card>
+    Terceira mensagem!
+</x-alert-card>
 @endsection
